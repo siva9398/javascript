@@ -13,8 +13,8 @@ console.log("the value outside", x1);
 
 
 // const variable
-const name = 'manu';
-const name = 'Mayank';
+const name = 'kumar';
+const name = 'ravi';
 console.log(name)
 
 
