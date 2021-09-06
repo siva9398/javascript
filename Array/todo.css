@@ -1,0 +1,18 @@
+#B1 {
+  background-color: black;
+  margin: 2px;
+  padding: 10px;
+  font-size: 20px;
+  color:white;
+}
+#B2 {
+background-color: rgb(248, 244, 242);
+height: auto;
+}
+#list {
+  background-color: rgb(228, 232, 236);
+}
+.col{
+  padding: 10px;
+  display: inline-block;
+}

@@ -1,0 +1,31 @@
+ul {
+  list-style: none;
+}
+
+ul li a {
+  text-decoration: none;
+}
+
+ul li {
+  display: inline-block;
+  padding: 10px;
+  margin: 20px;
+  border: 2px dotted red;
+}
+
+img {
+  border-radius: 460%;
+}
+
+body {
+  background-image: url("https://cdn.pixabay.com/photo/2021/08/20/19/49/boat-6561172__480.jpg");
+  background-size: cover;
+}
+
+h1 {
+  color: rgb(51, 213, 241);
+}
+
+h2 {
+  color: rgba(123, 207, 255, 0.9);
+}

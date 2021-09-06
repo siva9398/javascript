@@ -1,0 +1,21 @@
+div {
+  font-family: "Courier New", Courier, monospace;
+}
+
+.demo {
+  color: crimson;
+  text-align: center;
+  text-shadow: 5px 3px green;
+}
+
+/* id selector */
+#test {
+  font-size: 15px;
+  font-style: italic;
+}
+
+/* pesudo classes */
+p:hover {
+  color: brown;
+  font-size: 29px;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./todo.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" 
+    rel="stylesheet" 
+    integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" 
+    crossorigin="anonymous">
+</head>
+<body>
+    <div class="container-fluid">
+    <div class="row">
+    <div class="col-13">
+        <h1 id="B1">Todo List</h1>
+    </div>
+    <div class="col" id="B2">
+        <nav class="nav flex-column">
+            <a class="nav-link active " aria-current="page" href="#">Inbox</a>
+            <a class="nav-link" href="#">Today</a>
+            <a class="nav-link" href="#">This Week</a>
+          </nav>
+        <h3>Projects</h3>
+        <div class="input">
+            <input type="text" name="todo-input" id="todo-input"
+            class="input-element" placeholder="Enter?"/>
+        </div>
+        <br></br>
+        <div class="col">
+            <button class="btn btn-success" name="add-btn" id="add-btn" style="box-sizing:content-box" >Add</button>
+            <!-- <button class="btn btn-danger" name="can-btn" id="can-btn" >Cancel</button> -->
+        </div>
+    </div>
+        <div class="col-9" id="list" style="text-align: justify;" ></div>
+    </div>
+    </div>
+    <script src="./todo.js"></script>
+</body>
+</html>
