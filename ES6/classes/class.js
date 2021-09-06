@@ -9,7 +9,7 @@ class Person {
     }
 }
 
-const allPerson = new Person('Nazriya', 'Fahadh', 30);
+const allPerson = new Person('siva', 'sundaram', 23);
 console.log('First name', allPerson.fname);
 console.log("Last name", allPerson.lname);
 console.log("Age", allPerson.age);
